@@ -9,7 +9,7 @@ Una piccola applicazione backend per gestire post, autori e commenti usando Mong
 - JUnit e AssertJ
 
 ## Come funziona
-Un post può contenere i dati dell’autore e i commenti come documenti annidati, in MongoDB questo permette di salvare in un unico documento i dati che appartengono al post. Il repository usa query derivate: Spring Data ricava la ricerca dal nome del metodo, può anche cercare nei campi annidati dell’autore e per ricerche più specifiche si usa la @Query
+Un post può contenere i dati dell’autore e i commenti come documenti annidati. In MongoDB questo permette di salvare in un unico documento i dati che appartengono al post. Il repository usa query derivate: Spring Data ricava la ricerca dal nome del metodo, può anche cercare nei campi annidati dell’autore e per ricerche più specifiche si usa la @Query
 ## Come avviarlo
 - MongoDB acceso
 - i test si lanciano con ./mvnw.cmd test
